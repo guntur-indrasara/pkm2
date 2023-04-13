@@ -1,0 +1,433 @@
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  color: #666;
+  background-color: #fff;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+
+.light {
+  font-weight: 400;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+.navbar-brand {
+  height: 40px;
+  padding: 5px 15px;
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.navbar-brand h1{
+	color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.navbar-brand:focus {
+  outline: 0;
+}
+
+.nav.navbar-nav {
+  background-color: rgba(255,255,255,.4);
+}
+
+.navbar-custom.top-nav-collapse .nav.navbar-nav {
+  background-color: rgba(0,0,0,0);
+}
+
+.navbar-custom ul.nav li a {
+	font-size: 12px;
+	letter-spacing: 1px;
+  color: #444;
+  font-weight: 700;
+}
+
+.navbar-custom.top-nav-collapse ul.nav li a {
+ -webkit-transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out;
+ color: #fff;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu {
+ border-radius: 0;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li {
+	border-bottom: 1px solid #f5f5f5;
+
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li:last-child{
+	border-bottom: none;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a {
+	padding: 10px 20px;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	background: #fefefe;
+}
+
+.navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
+	color: #666;
+}
+
+.navbar-custom .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  outline: 0;
+  background-color: rgba(255,255,255,.2);
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+  outline: 0;
+  background-color: rgba(255,255,255,.2);
+}
+
+.navbar-toggle {
+  padding: 4px 6px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+  outline: 0;
+}
+
+
+
+
+
+.intro {
+	position:relative;
+	background: url(../img/2.jpg) no-repeat top center;
+  background-size: cover;
+  height: auto;
+  margin-bottom: 50px; 
+}
+
+#intro.intro {
+	padding:15% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: left;
+
+}
+
+.kata{
+  font-size: 100px;
+}
+
+.kata2{
+  font-size: 20px;
+  font-family: Arial;
+  margin-bottom: 100px;
+}
+
+
+
+
+.intro .slogan h2 {
+	color: #FFF;
+	text-shadow: none;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+	text-shadow: -1px 0 1px #000;
+}
+
+.intro .slogan h4 {
+	color: #fff;
+	text-shadow: -1px 1px 1px #000;
+}
+
+.widget-contact {
+	text-align: left;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0 ;
+
+}
+
+.footer-copyright{
+  color: #ffffff;
+}
+
+
+.credits, .credits a {
+  color: #fff;
+}
+
+
+
+
+
+
+
+@media(min-width:767px) {
+
+  .navbar {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+    background-color: #000;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+  }
+
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+
+
+}
+
+@media (max-width:480px) {
+
+	.navbar-custom .nav.navbar-nav {
+    background-color: rgba(255,255,255,.4);
+  }
+
+}
+
+
+
+.kedua{
+  font-size: 50px;
+  color: #000;
+}
+
+.kartu {
+  border: 5px solid #fff;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  color: #FFFAF0;
+}
+.margin {
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+}
+
+.card-img-1 {
+  border-radius: 10px; 
+}
+
+.card-text1{
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+  font-size: 20px;
+
+}
+
+.card-title1{
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+  font-size: 30px;
+
+}
+.card-img-overlay{
+  background: url(../img/vH7KVu.jpg);
+  color: #DCDCDC;
+  margin-bottom: 15px;
+  border-radius: 15px;
+} 
+.card-text2{
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  font-size: 15px;
+
+}
+
+.card-title2{
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  font-size: 25px;
+  margin-bottom: 30px;
+
+}
+.card-img-overlay2{
+  background: url(../img/download.jpg);
+  color: #DCDCDC;
+  border-radius: 15px;
+
+}
+.card-text3{
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  font-size: 15px;
+
+}
+
+.card-title3{
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  font-size: 25px;
+
+}
+.card-img-overlay3{
+  background: url(../img/desktop-wallpaper-underwater-ocean-epic-ocean.jpg);
+  color: #DCDCDC;
+  border-radius: 15px;
+
+}
+.card-body h5{
+  color: #000;
+}
+
+.card-body{
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+
+}
+
+.ketiga{
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.pe{
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.bagian3{
+  background: url(../img/copy.jpg);
+  color: #fff;
+}
+
+.card-img {
+  border: 5px solid #fff;
+  margin-bottom: 50px;
+  border-radius: 10px; 
+  color: #DCDCDC;
+}
+.card-text-new {
+  margin: 20px;
+  border: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+}
+
+.keempat{
+  font-size: 40px;
+  margin-top: 50px;
+  color: #000
+}
+
+.pe2{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn{
+  margin-bottom: 50px;
+}
+
+.card-title-1{
+  font-size: 20px;
+}
+
+.card-text-1{
+  font-size: 14px;
+}
+
+.card-text-10{
+  font-size: 14px;
+  margin-bottom: 150px;
+}
+
+.card-title-2{
+  font-size: 30px;
+  color: #000;
+}
+
+.card-text-2{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.gambar{
+  border-radius: 10px;
+  width: 450px;
+  margin-bottom: 100px;
+}
+
+
+.card-texts{
+  margin: 50px;
+  border: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.card-titles{
+  margin: 50px;
+  border: rgba(255,255,255,0.8);
+  margin-bottom: 30px;
+  font-size: 50px;
+   color: #fff;
+}
